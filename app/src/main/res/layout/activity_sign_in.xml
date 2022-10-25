@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/light_grey"
+    tools:context=".LoginSignUp.SignInActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="Img"
+            app:srcCompat="@drawable/whatsapp_img" />
+
+
+
+        <EditText
+            android:id="@+id/etEmailSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:hint="Email@anyting.com"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:id="@+id/etPasswordSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:padding="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            />
+
+        <TextView
+            android:id="@+id/CreateAnAccTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="15dp"
+            android:text="Create An account !"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_signIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:text="sign In" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_Google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/google_img"
+                android:padding="15dp"
+
+                android:text="Google"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/fb_Color"
+                android:drawableLeft="@drawable/facebook_img"
+                android:padding="15dp"
+                android:text="FaceBook" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/SignInPhNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:padding="15dp"
+            android:text="Sign In with Phone"
+            android:visibility="gone"
+            android:textColor="@color/whatsappColor"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

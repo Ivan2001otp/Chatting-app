@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "362118135603",
+    "firebase_url": "https://clonechat-4e837-default-rtdb.firebaseio.com",
+    "project_id": "clonechat-4e837",
+    "storage_bucket": "clonechat-4e837.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362118135603:android:4223d596d41bd7dd9c4846",
+        "android_client_info": {
+          "package_name": "com.example.clonechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362118135603-mmgo7g6hjsgpd1eug4qo5qkaq956lrov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.clonechat",
+            "certificate_hash": "bd5c95470ad0e1f0bc64de05366e86863822208b"
+          }
+        },
+        {
+          "client_id": "362118135603-l3ika5bf2sg83dt27qhvupoaq41eo5mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-5-x6iYsgmqHud9HPiKkw1Ngm-gNJkoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362118135603-l3ika5bf2sg83dt27qhvupoaq41eo5mb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
